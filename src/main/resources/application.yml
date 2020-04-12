@@ -1,0 +1,12 @@
+server:
+    servlet:
+        context-path: /api
+    port: 9090
+spring:
+    data:
+        mongodb:
+            host: 127.0.0.1
+            port: 27017
+            username: vue_admin
+            password: vue_admin
+            database: vueadmin
